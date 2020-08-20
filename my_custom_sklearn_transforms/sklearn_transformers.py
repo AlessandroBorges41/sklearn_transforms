@@ -1,7 +1,8 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 import imblearn
-from imblearn.over_sampling import SMOTE, SVMSMOTE
+from imblearn.over_sampling import SMOTE
 import pandas as pd
+from xgboost import XGBClassifier
 
 # All sklearn Transforms must have the `transform` and `fit` methods
 class DropColumns(BaseEstimator, TransformerMixin):
