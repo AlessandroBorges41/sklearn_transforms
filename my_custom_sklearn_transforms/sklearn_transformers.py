@@ -1,6 +1,6 @@
 from sklearn.base import BaseEstimator, TransformerMixin
-import imblearn
-from imblearn.over_sampling import SMOTE
+!pip install imblearn
+from imblearn.over_sampling import SMOTE, SVMSMOTE
 import pandas as pd
 from xgboost import XGBClassifier
 
