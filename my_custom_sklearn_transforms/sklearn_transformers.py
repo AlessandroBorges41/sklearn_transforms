@@ -1,3 +1,4 @@
+from imblearn.over_sampling import SMOTE, SVMSMOTE
 from sklearn.base import BaseEstimator, TransformerMixin
 
 
